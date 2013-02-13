@@ -3,10 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <title>Chai's Story</title>
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
     <header>
-      <h1>Chai's Story</h1>
+      <h1 id="title">Chai's Story</h1>
     </header>
+    <div>
+      <%= yield %>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/js/jquery.colorbox-min.js"></script>
+    <!--<script src="/js/custom.js"></script>-->
   </body>
 </html>
