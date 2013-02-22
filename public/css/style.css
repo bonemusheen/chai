@@ -1,4 +1,17 @@
+body {
+  background-color: #e1e1e1;
+}
 #title {
   font-family: Helvetica;
   color: blue;
+}
+#accordion div p {
+  font-size: 0.75em;
+}
+#accordion h3 {
+  font-size: 0.75em;
+  background-color: blue;
+}
+#accordion {
+  width: 75%;
 }

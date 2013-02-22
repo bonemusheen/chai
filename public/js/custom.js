@@ -1,3 +1,4 @@
 $(document).ready(function() {
-  $("#audio").colorbox({iframe:true, width:"75%", height:"75%"});
+  $("#wiki").colorbox({iframe:true, width:"90%", height:"85%"});
+  $("#accordion").accordion({heightStyle: "content"});
 });
